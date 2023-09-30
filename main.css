@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+    background-color: #dccaca;
+    
+}
+#main h1, #create-acct h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #000;
+  letter-spacing: 0.1em;
+}
+
+ #main p ,#create-acct p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  line-height: 0.1em;
+  color: white;
+}
+
+#main p span, #create-acct p span  {
+  background: transparent;
+  padding: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
+#main input ,#create-acct input{
+  margin-bottom: 3%;
+}
+
+#main input:last-of-type {
+  margin-bottom: 0;
+}
+#create-acct input:last-of-type {
+  margin-bottom: 0;
+}
+
+#main input, button {
+  padding: 3%;
+  width: 100%;
+  background: transparent;
+  color: white;
+  border-radius: 13px;
+  font-weight: bold;
+}
+ #create-acct input, button {
+  padding: 3%;
+  width: 100%;
+  background: transparent;
+  color: white;
+  border-radius: 13px;
+  font-weight: bold;
+}
+
+.login-container {
+  background: rgba(55, 55, 55, 0.2);
+  padding: 7%;
+  box-shadow: 0 4px 8px 0 rgba(33, 32, 32, 0.2);
+  /* horizontal align */
+  width: 40vw;
+  margin-left: 30vw;
+  /* vertical align */
+  height: 82vh;
+  margin-top: 15vh;
+}
+
+#submit, #create-acct-btn {
+  background-color: #000;
+  color: white;
+  border: none;
+  margin-top: 5%;
+}
+
+#main button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+ #create-acct button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#sign-up {
+  border: none;
+}
+
+#create-acct {
+  /* display: ; */
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+}
+
+
+
