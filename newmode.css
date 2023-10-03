@@ -1,0 +1,15 @@
+#icon1{
+    width: 5%;
+    cursor: pointer;
+    margin-left: 588px
+}
+:root{
+    --primary-color: #fff;
+    --secondary-color: #000;
+    /* --primary-color: #2f2f2f; */
+
+}
+.dark-theme{
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
